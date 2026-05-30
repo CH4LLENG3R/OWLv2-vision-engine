@@ -13,7 +13,7 @@ A high-performance, asynchronous web application for zero-shot object detection 
 * **Real-Time WebSockets:** Stream live webcam frames to the server using an optimized Request-Acknowledge (Ping-Pong) protocol to ensure zero frame-queue explosion and strict backpressure management.
 * **Static Image API:** Standard REST endpoint for high-resolution image uploads or snap-and-detect webcam capture.
 * **Asynchronous GPU Worker:** Heavy PyTorch inference is decoupled from the FastAPI event loop using an `asyncio.Queue` and thread workers, ensuring the server remains highly responsive.
-* **Modern Frontend:** A lightweight, vanilla JavaScript and Bootstrap 5 interface—no Node.js or npm required.
+* **Modern Frontend:** A lightweight, vanilla JavaScript and Bootstrap 5 interface no Node.js or npm required.
 
 ## UI Preview
 Static Image Detection
