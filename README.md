@@ -68,7 +68,7 @@ The application is designed to gracefully handle heavy Vision Transformer (ViT) 
 1. Start the Server
 Run the FastAPI application using Uvicorn:
     ```bash
-    uvicorn rest:app --host 0.0.0.0 --port 8000
+    uvicorn main:app --host 0.0.0.0 --port 8000
 2. Access the UI
 Open your web browser and navigate to:
     ```bash
